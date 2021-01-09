@@ -1,13 +1,337 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ENSAYO 
-    </title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <!-- Mi estilo -->
     <link rel="stylesheet" href="style.css">
+    <title>Sitio</title>
 </head>
+
 <body>
-    <h1>HOLA</h1>
+    <!-- Navbar Responsivo -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo-b.png" class="nav_logo" alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" style="align-items: center;">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Quienes somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Que hacemos</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tienda
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Producto 1</a>
+                            <a class="dropdown-item" href="#">Producto 2</a>
+                            <a class="dropdown-item" href="#">Producto 3</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <header>
+        
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-5">TITULO<span class="text-muted"> </span></h1><br>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora non tempore libero
+                    facere mollitia, sint, est inventore voluptate similique molestias nostrum repellendus cum, illo
+                    omnis atque quos reprehenderit quisquam beatae?</p>
+                <hr class="my-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis suscipit ex eligendi nostrum ea
+                    nulla tenetur enim repellendus perspiciatis magnam ullam incidunt accusantium vero, sunt architecto.
+                    Doloremque nemo sapiente tempora?
+                </p>
+                <a class="btn btn-warning btn-lg" href="#" role="button">Conocenos</a>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <main>
+        <div class="container marketing">
+
+            <div class="container marketing">
+
+                <!-- START THE FEATURETTES -->
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">Producto <span class="text-muted">Destacado de la semana.</span>
+                        </h2><br>
+                    </div>
+
+                    <!-- Inicio cards horizontales -->
+                    <div class="container">
+
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                            <!--Cards 1-->
+
+                            <div class="col-md-8">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">Thumbnail</text>
+                                    </svg>
+
+                                    <div class="card-body">
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Cards-final-->
+
+                            <!--Cards 2-->
+                            <div class="col-md-4">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">Thumbnail</text>
+                                    </svg>
+
+                                    <div class="card-body">
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">Comprar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Cards-final-->
+
+                            <!--Cards 3-->
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">Thumbnail</text>
+                                    </svg>
+
+                                    <div class="card-body">
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">Comprar</button>
+                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Cards-final-->
+
+                            <!--Cards 3-->
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">Thumbnail</text>
+                                    </svg>
+
+                                    <div class="card-body">
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">Comprar</button>
+                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Cards-final-->
+
+                            <!--Cards 3-->
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">Thumbnail</text>
+                                    </svg>
+
+                                    <div class="card-body">
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">Comprar</button>
+                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Cards-final-->
+
+                    <!-- Fin cards horizontales -->
+
+
+
+
+                </div>
+
+                <hr class="featurette-divider">
+            </div>
+        </div>
+
+
+
+
+        <div class="container marketing">
+
+            <div class="container marketing">
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2">
+
+                        <h2> Contactanos</h2>
+
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputNombre">Nombre</label>
+                                    <input type="text" class="form-control" placeholder="Nombre" id="inputNombre">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputApellido">Apellido</label>
+                                    <input type="text" class="form-control" placeholder="Apellido" id="inputApellido">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Email</label>
+                                <input type="text" class="form-control" id="inputEmail"
+                                    placeholder="tucorreo@dominio.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Telefono movil</label>
+                                <input type="text" class="form-control" id="inputAddress"
+                                    placeholder="(+56) 9 1234 5678">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Mensaje</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Tu mensaje"></textarea>
+                            </div>
+
+
+                            <button type="submit" class="btn btn-warning">Enviar</button>
+                        </form>
+
+
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <br><br>
+                        <img class="featurette-image img-fluid mx-auto" src="" alt="">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer container-fluid" id="footer">
+        <div class="caja">
+            <a href="#" class="rrss"><i class="fab fa-facebook-square fa-4x"></i></a>
+            <a href="#" class="rrss"><i class="fab fa-twitter-square fa-4x"></i></a>
+            <a href="#" class="rrss"><i class="fab fa-instagram-square fa-4x"></i></a>
+        </div>
+        <p>Texto legal al pie de la pagina. Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Tempore
+            corporis repellendus explicabo minus quidem.<br><br>Nombre de la marca ©</p>
+    </footer>
+    <!-- Fin Footer -->
+
+    <!-- JSJSJSJSJSJS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 </body>
+
+<script src="assets/js/script.js"></script>
+
 </html>
